@@ -1,0 +1,876 @@
+body
+{
+	background-color: #E1E1E1;
+    font-family: 'Raleway';
+    font-style:  normal;
+    font-size: 1.125rem;
+}
+
+header
+{
+    height: 42.4375rem;
+}
+
+.container
+{
+    position: relative;
+    display: flex;
+    float: initial;
+    justify-content: center;
+    top: 6rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    max-width: 90rem;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+nav
+{
+    height: 6rem;
+    align-items: flex-end;
+}
+
+div.coverPhoto
+{
+    width: 90rem;
+    height: 36.5rem;
+    background-image: url("../photo/cover photo.png");
+    position: relative;
+}
+
+h1
+{
+    font-weight: bold;
+    font-size: 6.25rem;
+    line-height: 7.3125rem;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFC53D;
+}
+
+h2
+{
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.overlay
+{
+    position: relative;
+    height: 36.5rem;
+    left: 0rem;
+}
+
+.overlay .link .coverLayer
+{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    mix-blend-mode: lighten;
+}
+
+.overlay .link #wTexth1
+{
+    position: absolute;
+    width: 31.6875rem;
+    height: 7.375rem;
+    top: 4.8125rem;
+    left: 31.25rem;
+}
+
+.overlay .link #wTexth3
+{
+    position: absolute;
+    width: 31.6875rem;
+    height: 7.375rem;
+    left: 31.25rem;
+    top: 12.0625rem;
+
+}
+
+.overlay .link #wIcon
+{
+    position: absolute;
+    top: 16.625rem;
+    left: 41.5625rem;
+    color: #FFFFFF;
+    font-size: 1.5625rem;
+}
+
+main
+{
+    margin-top: -6rem;
+}
+
+#c2.container
+{
+    top: 6rem;
+    overflow: hidden;
+}
+
+.panel
+{
+    position: relative;
+    width: 90rem;
+    height: 13.75rem;
+    left: 0px;
+    background: #FFFFFF;
+}
+
+.panel p
+{
+    position: relative;
+    color: black;
+    font-size: 2.25rem;
+    line-height: 2.625rem;
+    text-align: center;
+    letter-spacing: 0.02em;
+    top: 2.4375rem;
+}
+
+.buttonbox
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 3.5625rem;
+}
+
+.button
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+    border-radius: 0.9375rem;
+    border: white;
+    color: #FFFFFF;
+    width: 12.5rem;
+    height: 3.125rem;
+}
+
+.button:hover
+{
+    border: 1px solid #FFC53D;
+    border-radius: 0.9375rem;
+    background: white;
+    color: #FFC53D;
+}
+
+.button:active
+{
+    border: 1px solid #FFC53D;
+    border-radius: 0.9375rem;
+    background: white;
+    color: #FFC53D;
+}
+
+#c1.container
+{
+    min-height: 16.875rem;
+}
+
+div.backout
+{
+    position: relative;
+    width: 90rem;
+    min-height: 26.875rem;
+    left: auto;
+    background: #FFFFFF;
+}
+
+.backout::before
+{
+    content: " ";
+    position: absolute;
+    width: 61.25rem;
+    height: 26.875rem;
+    left: 0px;
+    background: #FAFAFF;
+}
+
+div#about
+{
+    position: absolute;
+    left: 9.5rem;
+    top: 1.125rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.3125rem;
+    letter-spacing: 0.02em;
+    color: #222222;
+}
+
+div.inside
+{
+    position: absolute;
+    width: 77.5625rem;
+    top: 4.625rem;
+    left: 6.25rem;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    display: flex;
+}
+
+.portrait
+{
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+#myphoto
+{
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.cv
+{
+    letter-spacing: 0.02em;
+    font-weight: bold;
+    padding-top: 2.5rem;
+}
+
+span#yelText
+{
+    color: #FFC53D;
+}
+
+p#lorem
+{
+    max-width: 41.5625rem;
+    padding-left: 1.625rem;
+    border-left: 4px dotted #FFC53D;
+    height: 12.35rem;
+    margin-top: 2.4375rem;
+    margin-bottom: 2.875rem;
+    font-size: 1.125rem;
+    line-height: 172.35%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    flex: 0 0 20%;
+    overflow: hidden;
+}
+
+#c3.container
+{
+    top: 6rem;
+    overflow: hidden;
+    height: 30.3125rem;
+}
+
+div.backinright
+{
+    position: absolute;
+    top: 3.5625rem;
+    width: 61.25rem;
+    height: 26.875rem;
+    right: 0px;
+    background: #FAFAFF;
+}
+
+#skills
+{
+    position: absolute;
+    left: 3.75rem;
+    top: 1.125rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    letter-spacing: 0.02em;
+    color: #222222;
+}
+
+div.insideright
+{
+    position: absolute;
+    width: 77.5625rem;
+    top: 4.625rem;
+    height: 17.5rem;
+    right: 6.25rem;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.ux
+{
+    top:2.375rem;
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-align: center;
+}
+
+.ux p
+{
+    margin-top:2.875rem;
+}
+
+.fe
+{
+    margin-top:2.375rem;
+    margin-bottom: 2.875rem;
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-align: center;
+    border-left: 4px dotted #FFC53D;
+}
+
+.fe p
+{
+    margin-top:2.875rem;
+}
+
+.be
+{
+    border-left: 4px dotted #FFC53D;
+    margin-top:2.375rem;
+    margin-bottom: 2.875rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    text-align: center;
+}
+
+.be p
+{
+    margin-top:2.875rem;
+}
+
+#c4.container
+{
+    overflow: hidden;
+    height: 54.6875rem;
+}
+
+#portfolio
+{
+    position: relative;
+    width: 90rem;
+    top: 2.6875rem;
+    text-align: center;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.375rem;
+    letter-spacing: 0.02em;
+    color: #222222;
+}
+
+div.gallery
+{
+    position: relative;
+    margin-right: -7.5rem;
+    margin-left: -0.9375rem;
+
+}
+
+img#rawphoto
+{
+    height: 21.6875rem;
+    width: 32.625rem;
+    object-fit: cover;
+}
+
+div.gradient1
+{
+    position: relative;
+    height: 21.6875rem;
+    width: 33.125rem;
+
+}
+
+div.gradient1:before
+{
+    content: '';
+    background: linear-gradient(180deg, rgba(34, 34, 34, 0.5) 0%, rgba(255, 154, 61, 0.5) 100%);
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+
+div.gradient2
+{
+    position: relative;
+    height: 22.125rem;
+    width: 65.5rem;
+}
+
+div.gradient2:before
+{
+    content: '';
+    background: linear-gradient(180deg, rgba(34, 34, 34, 0.5) 0%, rgba(255, 154, 61, 0.5) 100%);
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+
+figure
+{
+    margin: 0 0 0rem;
+}
+
+#design
+{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 2.9375rem;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+#textGallery1
+{
+    position: absolute;
+    top: 1.5625rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0.02em;
+    left: 2.25rem;
+    padding-right: 3.5rem;
+}
+
+#textGallery2
+{
+    position: absolute;
+    top: 1.5625rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    letter-spacing: 0.02em;
+    left: 2.25rem;
+    padding-right: 18.75rem;
+}
+
+.button2
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+    border-radius: 15px;
+    border: white;
+    color: #FFFFFF;
+    width: 6.25rem;
+    height: 3.125rem;
+    top: 0.625rem;
+}
+
+.button2:hover
+{
+    border: 1px solid #FFC53D;
+    border-radius: 15px;
+    background: white;
+    color: #FFC53D;
+}
+
+.button2:active
+{
+    border: 1px solid #FFC53D;
+    border-radius: 15px;
+    background: white;
+    color: #FFC53D;
+}
+
+#c5.container
+{
+    overflow: hidden;
+    height: 49.0625rem;
+    background-color: #FAFAFF;
+}
+
+.contactus
+{
+    position: absolute;
+    width: 77,5625rem;
+    height: 38,8125rem;
+    left: 6.25rem;
+    top: 4.625rem;
+}
+
+p#about
+{
+    position: absolute;
+    left: 9.5rem;
+    top: 1.125rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.3125rem;
+    letter-spacing: 0.02em;
+    color: #222222;
+}
+
+.orangecont
+{
+    width: 31.8125rem;
+    height: 38.8125rem;
+    background: #FF9A3D;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+    margin-left: 0px;
+}
+
+#msglogo
+{
+    position:absolute;
+    top:2.25rem;
+    left:4.25rem;
+}
+
+#desquest
+{
+    position: absolute;
+    top:7.3125rem;
+    left:3.25rem;
+    right: 9.375rem;
+    font-size: 1.125rem;
+    line-height: 172.35%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+#wIcon2
+{
+    position: absolute;
+    top: 26.8125rem;
+    left: 3rem;
+    color: #FFFFFF;
+    font-size: 1.5625rem;
+}
+
+#polygon
+{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    left: 30.4375rem;
+    top: 3.125rem;
+    background: #FF9A3D;
+    transform: rotate(45deg);
+}
+
+#distext
+{
+    position: absolute;
+    top: 28.9375rem;
+    left: 3.25rem;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5625rem;
+    letter-spacing: 0.02em;
+}
+
+#form1
+{
+    position: relative;
+    width: 45.75rem;
+    height: 38.8125rem;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+    padding-right: 1.25rem;
+}
+
+#ls
+{
+    position: absolute;
+    left: 3rem;
+    top: 2.0625rem;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 172.35%;
+    letter-spacing: 0.04em;
+    color: #222222;
+}
+
+#fordiv
+{
+    position: absolute;
+    top: 5.5625rem;
+    left: 3rem;
+}
+
+#form
+{
+    background: #FAFAFF;
+    border-radius: 0.9375rem;
+    height: 3.5rem;
+    width: 39.9375rem;
+    margin-top: 1.0625rem;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+#message
+{
+    background: #FAFAFF;
+    width: 39.9375rem;
+    border-radius: 0.9375rem;
+    height: 11.25rem;
+    margin-top: 1.0625rem;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.button3
+{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   font-weight: bold;
+   align-items: center;
+   background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+   border-radius: 15px;
+   border: white;
+   color: #FFFFFF;
+   width: 6.25rem;
+   height: 3.125rem;
+   top: 33.5rem;
+   left: 36.6875rem;
+}
+
+.button3:hover
+{
+    border: 1px solid #FFC53D;
+    border-radius: 15px;
+    background: white;
+    color: #FFC53D;
+}
+
+.button3:active
+{
+    border: 1px solid #FFC53D;
+    border-radius: 15px;
+    background: white;
+    color: #FFC53D;
+}
+
+footer
+{
+    position: relative;
+    height: 5.1875rem;
+    max-width: 90rem;
+    display: flex;
+    float: initial;
+    justify-content: center;
+    background-color: #FFFFFF;
+    align-items: center;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    letter-spacing: 0.02em;
+    color: #A0A0A0;
+}
+
+footer p
+{
+    position: absolute;
+    top:2.125rem;
+}
+
+@media (max-width: 1325px)
+{
+    #polygon
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px)
+{
+    #c1.container
+    {
+        height: 40rem;
+
+    }
+    div.inside.row
+    {
+        height: 40rem;
+
+    }
+    div.lorembox
+    {
+        position: absolute;
+        top: 20rem;
+    }
+    div.insideright
+    {
+        max-width: 50rem;
+    }
+
+    div.gallery
+    {
+        max-width: 61.875rem;
+        left: 15rem;
+    }
+    
+
+    #form
+    {
+        width:20.75rem;
+    }
+
+    #message
+    {
+        width:20.75rem;
+    }
+
+    .button3
+    {
+        left:15rem;
+    }
+
+}
+
+
+@media (max-width: 800px)
+{
+    div.backout
+    {
+        height: 38rem;
+    }
+
+    p#lorem
+    {
+        font-size: 1rem;
+    }
+
+    #c3.container
+    {
+        height: 60rem;
+    }
+
+    div.backinright
+    {
+        max-width: 31.5rem;
+    }
+
+    div.insideright
+    {
+        max-width: 31.5rem;
+        height: 50rem;
+    }
+
+    .be
+    {
+        border-left: 0px dotted #FFC53D;
+        margin-top: 0px;
+    }
+
+    .fe
+    {
+        border-left: 0px dotted #FFC53D;
+        margin-bottom: 0px;
+    }
+
+    #c4.container
+    {
+        height: 120rem;
+    }
+
+    div.gallery
+    {
+        overflow: hidden;
+        max-width: 31.5rem;
+        margin-left: 30rem;
+    }
+
+    #imggal
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    #c5.container
+    {
+        height: 80rem;
+    }
+
+    #form1
+    {
+        position: absolute;
+        top: 38.5rem;
+        width: 509px;
+    }
+
+    #form
+    {
+        width:23.75rem;
+    }
+
+    #message
+    {
+        width:23.75rem;
+    }
+
+    .button3
+    {
+        left:20rem;
+    }
+
+    
+}
+
+@media (max-width: 576px)
+{
+    div.backout
+    {
+        height: 45rem;
+    }
+
+    p#lorem
+    {
+        font-size: 0.9rem;
+        padding-right: 15rem;
+    }
+
+    div.backinright
+    {
+        max-width: 31.5rem;
+    }
+
+    div.insideright
+    {
+        max-width: 31.5rem;
+    }
+
+    #c3.container
+    {
+        height: 60rem;
+        padding-left: 2rem;
+    }
+}
